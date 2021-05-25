@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bikes</title>
+    <meta name="keywords" content="html,css,javaScript" />
+    <meta name="description" content="Bikes" />
+    <meta name="author" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Font-awesome 5 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- start here -->
+    <div class="container bg-light">
+      <nav>
+        <img src="./img/logo.png" alt="" class="img-fluid" />
+        <div>
+          <a href="">home</a>
+          <a href="">bikes</a>
+          <a href="">gear</a>
+          <a href="">parts</a>
+          <a href="">tires</a>
+          <a href="">service-info</a>
+          <a href="">catalogues</a>
+          <a href="">contact</a>
+        </div>
+        <div>
+          <i class="fas fa-search"></i>
+          <i class="fas fa-shopping-bag"></i>
+        </div>
+      </nav>
+      <hr />
+      <h1>Bikes</h1>
+      <hr />
+      <div class="row">
+        <div class="col-md-12 filters">
+          <h3>Filter by:</h3>
+          <p id="showAllFilter" class="active">
+            Show all
+            <span class="badge rounded-pill text-dark">63</span>
+          </p>
+          <hr />
+          <h5>Gender</h5>
+          <p id="maleFilter">Male<span class="badge rounded-pill">43</span></p>
+          <p id="femaleFilter">
+            Female<span class="badge rounded-pill">20</span>
+          </p>
+          <hr />
+          <h5>Brand</h5>
+          <p id="leGrandFilter">
+            le grand bikes<span class="badge rounded-pill">7</span>
+          </p>
+          <p id="krossFilter">
+            kross<span class="badge rounded-pill">14</span>
+          </p>
+          <p id="explorerFilter">
+            explorer<span class="badge rounded-pill">8</span>
+          </p>
+          <p id="visitorFilter">
+            visitor<span class="badge rounded-pill">8</span>
+          </p>
+          <p id="ponyFilter">pony<span class="badge rounded-pill">2</span></p>
+          <p id="forceFilter">force<span class="badge rounded-pill">2</span></p>
+          <p id="ebikesFilter">
+            e-bikes<span class="badge rounded-pill">7</span>
+          </p>
+          <p id="idealFilter">
+            ideal<span class="badge rounded-pill">15</span>
+          </p>
+        </div>
+        <div class="col-md-12">
+          <div id="bikeCardsContainer" class="row"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Social share</h4>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram ms-2"></i>
+          <i class="fab fa-twitter ms-2"></i>
+          <i class="fab fa-linkedin-in ms-2"></i>
+        </div>
+        <div class="col-md-3 border-start">
+          <h4 class="mb-4">Event info</h4>
+          <p>Enter now</p>
+          <p>Event info</p>
+          <p>Course maps</p>
+          <p>Race Pack</p>
+          <p>Results</p>
+          <p>FAQs</p>
+          <p>Am I Registered?</p>
+        </div>
+        <div class="col-md-3 border-start">
+          <h4 class="mb-4">Registration</h4>
+          <p>Volunteers</p>
+          <p>Gallery</p>
+          <p>Press</p>
+          <p>Results</p>
+          <p>Privacy Policy</p>
+          <p>Service Plus</p>
+          <p>Contacts</p>
+        </div>
+        <div class="col-md-3 border-start">
+          <h4 class="mb-4">Schedule</h4>
+          <p>Gallery</p>
+          <p>About</p>
+          <p>Videos</p>
+          <p>Results</p>
+          <p>FAQs</p>
+          <p>Results</p>
+          <p>Volunteers</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery library -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

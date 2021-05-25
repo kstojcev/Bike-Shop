@@ -1,0 +1,141 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #e7e7e7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4%;
+  padding-bottom: 10px;
+}
+
+nav div:nth-child(3) i:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+nav img {
+  padding: 5px;
+  width: 90px;
+}
+
+nav a {
+  padding: 18px 15px;
+  margin-left: 16px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #d3d3d3;
+  color: orange;
+}
+
+nav i {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.filters h5 {
+  font-weight: bold;
+}
+
+.filters p {
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+
+.filters span {
+  float: right;
+  background-color: #d3d3d3;
+  color: #5c5c5c;
+}
+
+.filters .showAll {
+  color: orange;
+  margin-top: 30px;
+}
+
+.filters p:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.filters span:hover {
+  color: black;
+  background: orange !important;
+}
+
+.card:hover {
+  border-left: 2px solid orange;
+  border-top: 2px solid orange;
+  border-right: 2px solid orange;
+}
+
+.card img:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+img {
+  height: 180px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding-top: 4%;
+}
+
+footer h4 {
+  font-weight: bold;
+}
+
+footer i {
+  padding: 15px;
+  color: white;
+  background-color: orange;
+}
+
+footer i:hover {
+  color: black;
+  cursor: pointer;
+  background-color: grey;
+}
+
+footer p:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.active {
+  color: orange;
+}
+
+.active span {
+  background-color: orange;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media only screen and (max-width: 769px) {
+  footer i {
+    padding: 8px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 426px) {
+  nav a {
+    display: flex;
+    padding: inherit;
+  }
+}
